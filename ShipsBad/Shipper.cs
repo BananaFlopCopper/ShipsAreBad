@@ -21,8 +21,6 @@ namespace ShipsBad
             Decimal sum = 0.00m;
             for (int i = 0; i < Shipments.Count; i++)
             {
-//               IShippable slot = (IShippable)Shipments[i];
-//                Shipments[i] = slot;
                 sum += Shipments[i].ShipCost;
             }
             return sum;
@@ -40,27 +38,3 @@ namespace ShipsBad
 
     }
 }
-/*           int Bikes = 0;
-int Crackers = 0;
-int Mowers = 0;
-int Gloves = 0;
-for (int i = 0; i < Shipping.Count; i++)
-{
-    if (Shipments[i].Product == "Bicycle")
-    {
-        Bikes++;
-    }
-    if (Shipments[i].Product == "Crackers")
-    {
-        Crackers++;
-    }
-    if (Shipments[i].Product == "Lawn mower")
-    {
-        Mowers++;
-    }
-    if (Shipments[i].Product == "Baseball Glove")
-    {
-        Gloves++;
-    }
-}
-*/
