@@ -36,28 +36,28 @@ namespace ShipsBad
                     case 1:
                         Bicycle Bike = new Bicycle();
                         Shipper.Add(Bike);
-                        Console.WriteLine("1 Bicycle has been added \n Press any key to return to the menu.");
+                        Console.WriteLine("A Bicycle has been added \n Press any key to return to the menu.");
                         Console.ReadKey();
                         Console.Clear();
                         break;
                     case 2:
                         Lawn_mower Mower = new Lawn_mower();
                         Shipper.Add(Mower);
-                        Console.WriteLine("1 Lawn mower has been added.\nPress any key to return to the menu.");
+                        Console.WriteLine("A Lawn mower has been added.\nPress any key to return to the menu.");
                         Console.ReadKey();
                         Console.Clear();
                         break;
                     case 3:
                         Baseball_Glove Glove = new Baseball_Glove();
                         Shipper.Add(Glove);
-                        Console.WriteLine("1 Baseball Glove has been added. \n Press any key to return to the menu.");
+                        Console.WriteLine("A Baseball Glove has been added. \n Press any key to return to the menu.");
                         Console.ReadKey();
                         Console.Clear();
                         break;
                     case 4:
                         Crackers nom = new Crackers();
                         Shipper.Add(nom);
-                        Console.WriteLine("1 Crackers has been added. \n Press any key to return to the menu.");
+                        Console.WriteLine("A Crackers has been added. \n Press any key to return to the menu.");
                         Console.ReadKey();
                         Console.Clear();
                         break;
@@ -72,7 +72,7 @@ namespace ShipsBad
                         Console.Clear();
                         break;
                     case 6:
-                        Console.WriteLine("$" + Shipper.Sum()); ;
+                        Console.WriteLine("Final Total: $" + (Shipper.Sum()));
                         notDone = false;
                         break;
                 }

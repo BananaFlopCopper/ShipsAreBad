@@ -10,9 +10,7 @@ namespace ShipsBad
         public static int Cracker = 0;
 
         public Crackers ()
-        {
-            Cracker++;
-        }
+        { Cracker++; }
         public decimal ShipCost => 0.57M;
         public string Product => "Crackers";
     }

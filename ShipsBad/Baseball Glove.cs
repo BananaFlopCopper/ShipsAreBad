@@ -8,9 +8,7 @@ namespace ShipsBad
     {
         public static int Gloves = 0;
         public Baseball_Glove()
-        {
-            Gloves++;
-        }
+        { Gloves++; }
         public decimal ShipCost => 3.23m;
         public string Product => "Baseball Glove";
     }

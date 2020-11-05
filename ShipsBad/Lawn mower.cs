@@ -9,9 +9,7 @@ namespace ShipsBad
         public static int Mowers = 0;
 
         public Lawn_mower ()
-        {
-            Mowers++;
-        }
+        { Mowers++; }
         public decimal ShipCost => 24.00M;
         public string Product => "Lawn mower";
     }

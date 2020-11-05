@@ -10,9 +10,7 @@ namespace ShipsBad
         public static int Bikes = 0;
 
         public Bicycle ()
-        {
-            Bikes++;
-        }
+        { Bikes++; }
         public decimal ShipCost => 20.50m;
         public string Product => "Bicycle"; 
     }
